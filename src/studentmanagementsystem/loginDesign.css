@@ -1,0 +1,79 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jul 29, 2025, 1:07:14 AM
+    Author     : uthum
+*/
+
+
+
+.left-form {
+    -fx-background-color: linear-gradient(to bottom right, #000000, #2ca772, #a49f9f);
+    -fx-border-color: #000;
+    -fx-border-width: 0.4px 0px 0.4px 0.4px;
+    -fx-background-insets: 0;
+    -fx-padding: 10;
+}
+
+.right-form{
+    -fx-background-color:#fff;
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .4px 0px;
+}
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color:#fb3d63;
+}
+
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius:5px;
+    -fx-border-color:#000;
+    -fx-border-width:.2px;
+    -fx-border-radius:5px;
+    -fx-font-size:13px;
+    -fx-font-family:"Tahoma";
+}
+.textfield:focused{
+    -fx-background-color:#fff;
+    -fx-border-color:linear-gradient(to bottom right, #2d658c, #2ca772);
+    -fx-border-width:.8px;
+}
+
+.login-btn{
+    -fx-background-color: linear-gradient(to bottom, #000000, #a49f9f);
+    -fx-background-radius: 4px;
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: "Arial";
+    -fx-border-color: #333333;
+    -fx-border-radius: 4px;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.6), 4, 0.5, 0, 2);
+    -fx-padding: 8px 16px;
+}
+
+.login-btn:hover{
+    -fx-background-color: linear-gradient(to bottom, #1a1a1a, #b8b3b3);
+    -fx-border-color: #404040;
+    -fx-border-radius: 4px;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.7), 5, 0.6, 0, 3);
+    -fx-translate-y: -1px;
+}
+
+.login-btn:pressed{
+    -fx-background-color: linear-gradient(to bottom, #0d0d0d, #969191);
+    -fx-border-color: #2a2a2a;
+    -fx-border-radius: 4px;
+    -fx-border-width: 1px;
+    -fx-effect: innershadow(gaussian, rgba(0,0,0,0.5), 2, 0.5, 0, 1);
+    -fx-translate-y: 1px;
+}
